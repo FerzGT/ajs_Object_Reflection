@@ -1,6 +1,6 @@
 import { superAttak } from '../SuperAttak.js';
 
-test('Проверка корректного извлечения массива', () => {
+test('Verifying that the array is retrieved correctly', () => {
   const testObject = {
     name: 'Лучник',
     type: 'Bowman',

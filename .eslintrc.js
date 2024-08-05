@@ -7,7 +7,13 @@ module.exports = {
   'extends': 'eslint:recommended',
   'overrides': [
     {
-      'files': ['**/*/*.test.js'],
+      'files': ['**/*/*.test.js',
+                "**/*.spec.js",
+                "**/*.spec.jsx"
+      ],
+      "env": {
+        "jest": true
+      },
       'plugins': ['jest'],
       'extends': ['plugin:jest/recommended'],
       'rules': { 'jest/prefer-expect-assertions': 'off' }
