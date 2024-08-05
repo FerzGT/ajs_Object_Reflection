@@ -1,4 +1,4 @@
-export default function orderByProps(object, arrHero) {
+export function orderByProps(object, arrHero) {
   const copyObject = { ...object };
   const resultArr = [];
   for (const prop in copyObject) {

@@ -1,4 +1,4 @@
-import orderByProps from '../OrderByProps.js';
+import { orderByProps } from '../OrderByProps.js';
 
 test('Проверка правильной сортировки', () => {
     const testObject = {
