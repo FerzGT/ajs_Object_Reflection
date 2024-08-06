@@ -8,8 +8,8 @@ module.exports = {
   'overrides': [
     {
       'files': ['**/*/*.test.js',
-                "**/*.spec.js",
-                "**/*.spec.jsx"
+                "**/*orderByProps_test.js",
+                "**/*.SuperAttak_test.js"
       ],
       "env": {
         "jest": true
