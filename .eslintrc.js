@@ -9,7 +9,7 @@ module.exports = {
     {
       'files': ['**/*/*.test.js',
                 "**/*orderByProps_test.js",
-                "**/*.SuperAttak_test.js"
+                "**/*SuperAttak_test.js"
       ],
       "env": {
         "jest": true
